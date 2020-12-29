@@ -11,11 +11,11 @@ eureka:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
 
-rabbitmq:
-    host: 192.168.159.133
-    port: 15672
-    username: admin
-    password: admin
+  rabbitmq:
+      host: 192.168.159.133
+      port: 5672
+      username: admin
+      password: admin
 
 cloud:
    config:

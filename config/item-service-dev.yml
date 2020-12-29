@@ -14,9 +14,9 @@ cloud:
    config:
       override-none: true
 
-rabbitmq:
+   rabbitmq:
     host: 192.168.159.133
-    port: 15672
+    port: 5672
     username: admin
     password: admin
       
